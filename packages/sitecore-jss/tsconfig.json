@@ -1,0 +1,27 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist/cjs",
+    "typeRoots": ["../../node_modules/@types", "@types"],
+    "declarationDir": "dist/types"
+  },
+  "exclude": [
+    "node_modules",
+    "types",
+    "dist",
+    "layout.d.ts",
+    "media.d.ts",
+    "utils.d.ts",
+    "graphql.d.ts",
+    "i18n.d.ts",
+    "tracking.d.ts",
+    "site.d.ts",
+    "personalize.d.ts",
+    "type-extensions.d.ts",
+    "feaas.d.ts",
+    "src/**/*.test.ts",
+    "src/test-data/*"
+  ]
+}
